@@ -1,7 +1,49 @@
+# Calculating the area of circle
 import math 
 radius = 3
 circumference = 2 * math.pi * radius
 area = math.pi * radius ** 2
 print(circumference)
 print(area)
+
+
+#calculating the circumeference of circle and defining function "Circumference"
+def calc_circumference(radius):    # "calc_circumference" is a user-defined function name and () provide input arguments
+    circumference = 2 * math.pi * radius   #implements circumference
+    return circumference
+# use the function
+calc_circumference (5.45)
+c = calc_circumference(128.0)
+print(c)
+
+
+# define function "PrintHello"
+def PrintHello(name): #"PrintHello" is a user-defined function name and single argument called "name"
+    print("Hello" + name)
+    
+    
+#write a function to input traffic light of signal and provide instruction to driver on the road"
+Traffic_Light = input("Enter the color:  ")
+if Traffic_Light == "green":
+    print("move car")
+elif Traffic_Light == "yellow":
+    print("Stay behind the zebra line and get ready to stop")
+elif Traffic_Light == "red":
+    print("stop")
+else:
+    print("No Signal detected, drive with caution")
+    
+    
+    
+    
+Traffic_Light = input("Enter the color:  ")
+if Traffic_Light == "green":
+    print("move car")
+    
+Traffic_Light = input("Enter the color:  ")
+if Traffic_Light == "green":
+    print("move car")
+elif Traffic_Light == "yellow":
+    print("Stay behind the zebra line and get ready to stop")
+
 
