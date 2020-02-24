@@ -47,3 +47,24 @@ elif Traffic_Light == "yellow":
     print("Stay behind the zebra line and get ready to stop")
 
 
+
+# If Statement
+
+Statement = False
+if Statement:
+    print ("The statement is true")   #only executed if statement is True
+    print("Else, this would not be printed") #only executed if statement is True
+print("hello,world,") #executed anyways
+print("Bye") #executed anyways
+
+
+
+# If statement execution for whole statement
+Statement = True
+if Statement:
+    print ("The statement is true")   #only executed if statement is True
+    print("Else, this would not be printed") #only executed if statement is True
+print("hello,world,") #executed anyways
+print("Bye") #executed anyways
+
+
